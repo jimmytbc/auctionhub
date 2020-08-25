@@ -1,0 +1,4 @@
+sls logs -f processAuctions -t
+
+Invoke fuction manually
+sls invoke -f processAuctions -l

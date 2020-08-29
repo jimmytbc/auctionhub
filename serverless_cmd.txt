@@ -2,3 +2,6 @@ sls logs -f processAuctions -t
 
 Invoke fuction manually
 sls invoke -f processAuctions -l
+
+
+sls deploy --stage production --region ap-southeast-1

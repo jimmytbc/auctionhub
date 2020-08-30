@@ -49,5 +49,3 @@ async function placeBid(event, context) {
 
 export const handler = commonMiddleware(placeBid)
 .use(validator({ inputSchema: placeBidSchema }));
-
-
